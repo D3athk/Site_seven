@@ -8,7 +8,11 @@
 
 html {
   background: url(bg2.jpg) center center no-repeat fixed;
-	  height:99%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  height:99%;
   
 }
 
@@ -17,7 +21,7 @@ html {
  */
 
 body {
-background: url(leaf.gif);
+background: url(leaf2.gif);
   background-position: right;
   background-repeat: repeat;
   background-attachment: fixed;
